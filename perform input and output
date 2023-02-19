@@ -1,0 +1,23 @@
+#incluse<stdio.h>
+
+int main()
+{
+  char b;
+  printf("enter the value:");
+  scanf("%c",&b);
+  
+  int a;
+  printf("enter the number:");
+  scanf("%d",&a);
+  
+  float c;
+  printf("enter the value:");
+  scanf("%f",&c);
+  
+  double d:
+  printf("enter the value:")
+  scanf("%lf",&d);
+  
+   return 0;
+ }
+  
