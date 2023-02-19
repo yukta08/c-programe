@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+ int firstangle;
+ printf("Value of first angle:");
+ scanf("%d",&firstangle);
+ int secondangle;
+ printf("Value of second angle:");
+ scanf("%d",&secondangle);
+ printf("3rd angle will be:%d",180-(firstangle+secondangle));
+ return 0;
+}
