@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+ float a;
+ printf("Enter the value:");
+ scanf("%f",&a);
+  
+ printf("in meter:%f",a/100);
+ printf("\nin kilometer:%f",a/100000);
+ return 0;
+}
